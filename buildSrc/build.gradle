@@ -1,0 +1,22 @@
+plugins {
+    id 'groovy'
+    id 'java-gradle-plugin'
+}
+
+gradlePlugin {
+    plugins {
+        serviceFileGenerator {
+            id = 'ServiceFileGenerator'
+            implementationClass = 'dev.leialoha.gradletasks.GenerateServiceFilesPlugin'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+}

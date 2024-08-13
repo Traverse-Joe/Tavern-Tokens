@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "com/traverse/taverntokens/mixin/DrawContextMixin": {
+      "drawItemInSlot(Lnet/minecraft/client/gui/Font;Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/class_332;drawItemInSlot(Lnet/minecraft/class_327;Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V",
+      "drawItemInSlot(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/class_332;drawItemInSlot(Lnet/minecraft/class_327;Lnet/minecraft/class_1799;IILjava/lang/String;)V"
+    },
+    "com/traverse/taverntokens/mixin/PlayerEntityMixin": {
+      "dropEquipment": "Lnet/minecraft/class_1657;method_16078()V",
+      "addAdditionalSaveData": "Lnet/minecraft/class_1657;method_5652(Lnet/minecraft/class_2487;)V",
+      "readAdditionalSaveData": "Lnet/minecraft/class_1657;method_5749(Lnet/minecraft/class_2487;)V"
+    },
+    "com/traverse/taverntokens/mixin/ServerPlayerEntityMixin": {
+      "initMenu": "Lnet/minecraft/class_3222;method_14235(Lnet/minecraft/class_1703;)V",
+      "restoreFrom": "Lnet/minecraft/class_3222;method_14203(Lnet/minecraft/class_3222;Z)V"
+    },
+    "com/traverse/taverntokens/mixin/InventoryScreenMixin": {
+      "init": "Lnet/minecraft/class_490;method_25426()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/traverse/taverntokens/mixin/DrawContextMixin": {
+        "drawItemInSlot(Lnet/minecraft/client/gui/Font;Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/class_332;drawItemInSlot(Lnet/minecraft/class_327;Lnet/minecraft/item/ItemStack;IILjava/lang/String;)V",
+        "drawItemInSlot(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/class_332;drawItemInSlot(Lnet/minecraft/class_327;Lnet/minecraft/class_1799;IILjava/lang/String;)V"
+      },
+      "com/traverse/taverntokens/mixin/PlayerEntityMixin": {
+        "dropEquipment": "Lnet/minecraft/class_1657;method_16078()V",
+        "addAdditionalSaveData": "Lnet/minecraft/class_1657;method_5652(Lnet/minecraft/class_2487;)V",
+        "readAdditionalSaveData": "Lnet/minecraft/class_1657;method_5749(Lnet/minecraft/class_2487;)V"
+      },
+      "com/traverse/taverntokens/mixin/ServerPlayerEntityMixin": {
+        "initMenu": "Lnet/minecraft/class_3222;method_14235(Lnet/minecraft/class_1703;)V",
+        "restoreFrom": "Lnet/minecraft/class_3222;method_14203(Lnet/minecraft/class_3222;Z)V"
+      },
+      "com/traverse/taverntokens/mixin/InventoryScreenMixin": {
+        "init": "Lnet/minecraft/class_490;method_25426()V"
+      }
+    }
+  }
+}
